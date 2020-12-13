@@ -1,24 +1,5 @@
-# README
+# Module 4 Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Single Page Application with rails API backend and JS frontend
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Find the JS code [here](https://github.com/botto54/js-project-backend-rails-api)
