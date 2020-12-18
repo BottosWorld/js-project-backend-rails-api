@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  t_name: MyString
+  description: MyString
+  value: 9.99
+  account: one
+
+two:
+  t_name: MyString
+  description: MyString
+  value: 9.99
+  account: two
