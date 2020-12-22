@@ -3,7 +3,12 @@ class TransactionsController < ApplicationController
 
   # GET /transactions
   def index
-    @transactions = Transaction.all
+    if params[:account_id]
+      @account = Account.find(params[:account_id])
+      @transactions = @account.transactions
+    else
+      @transactions = Transaction.all
+    end
 
     render json: @transactions
   end
