@@ -25,7 +25,7 @@ Account.create([{
     Transaction.create({
         t_name: ["Target", "Best Buy", "Amazon", "Whole Foods", "Trader Joe's", "7 Eleven", "Shell"].sample,
         description: ["Gas", "Groceries", "Electronics", "Drinks", "Household Supplies"].sample,
-        value: rand(@min_value..@max_value).round(2),
+        t_value: rand(@min_value..@max_value).round(2),
         account: Account.all.sample
     })
 end
